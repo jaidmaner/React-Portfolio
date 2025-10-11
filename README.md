@@ -1,3 +1,5 @@
+Live Demo:-https://react-portfolio-drg0.onrender.com
+
 # React Portfolio Website
 
 Welcome to my personal portfolio website built with React! This website showcases my projects, skills, and experience as a developer.
@@ -95,41 +97,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 For any questions or inquiries, please reach out through the contact form on the website.
 
-## 🌐 Deployment on Render
-
-This website can be deployed on Render as a static site. Follow these steps:
-
-1. **Prepare for Build**
-   - Ensure you have a `_redirects` file in your `public` folder with the content:
-     ```
-     /* /index.html 200
-     ```
-   - This file is crucial for handling client-side routing on Render
-
-2. **Build the Project**
-   ```bash
-   npm run build
-   ```
-   This will create a `build` directory containing your static files.
-
-3. **Deploy to Render**
-   - Sign up/Login to [Render](https://render.com)
-   - Click "New +" and select "Static Site"
-   - Connect your GitHub repository
-   - Fill in the deployment details:
-     - **Name**: `your-portfolio` (or any name you prefer)
-     - **Build Command**: `npm install && npm run build`
-     - **Publish Directory**: `build`
-     - **Environment Variables**: None required for basic setup
-
-3. **Configuration Settings**
-   - Branch: `main`
-   - Auto-Deploy: Yes (Render will automatically deploy when you push to main)
-
-Your site will be live at `https://your-site-name.onrender.com`
-
-Note: The free tier of Render is suitable for personal portfolio websites and includes:
-- Continuous deployment from GitHub
-- Custom domains with SSL
-- Global CDN
-- DDoS protection
