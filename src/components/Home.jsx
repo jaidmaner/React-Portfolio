@@ -9,7 +9,7 @@ const Home = () => {
             <div className="mb-4">
               <img 
                 src="profile pic.jpg" 
-                alt="Paras Chavan"
+                alt="Jaid Maner"
                 className="rounded-circle mb-4"
                 style={{
                   width: '200px',
@@ -20,7 +20,7 @@ const Home = () => {
                 }}
               />
             </div>
-            <h1 className="display-4 mb-3">Hi, I'm Paras Chavan</h1>
+            <h1 className="display-4 mb-3">Hi, I'm Jaid Maner</h1>
             <p className="lead mb-4">Welcome to my portfolio website</p>
             <a 
               href="resume 1.pdf"

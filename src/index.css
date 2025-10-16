@@ -164,3 +164,33 @@ section {
 .container {
   padding: 2rem !important;
 }
+
+/* Strong override: ensure text is black for readability */
+:root, html, body, #root, .App {
+  color: #000000 !important;
+}
+
+section, .card, .card * , h1, h2, h3, h4, h5, h6, p, span, a, button, .badge, .btn, .form-control, .form-control::placeholder {
+  color: #000000 !important;
+}
+
+/* ensure placeholders are visible */
+.form-control::placeholder {
+  color: rgba(0,0,0,0.7) !important;
+}
+
+/* Footer visibility: make footer text and icons light so they contrast with the dark footer background */
+footer, footer * {
+  color: #ffffff !important;
+}
+
+footer a, footer .bi, footer svg, footer i {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  opacity: 0.95 !important;
+}
+
+/* Ensure footer links don't get overridden by global black rules */
+footer .nav-link, footer p, footer span {
+  color: #ffffff !important;
+}

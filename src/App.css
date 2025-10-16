@@ -88,6 +88,21 @@ footer {
   backdrop-filter: blur(10px);
 }
 
+/* Footer visibility overrides */
+footer, footer * {
+  color: #ffffff !important;
+}
+
+footer a, footer .bi, footer svg, footer i {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  opacity: 0.95 !important;
+}
+
+footer .nav-link, footer p, footer span {
+  color: #ffffff !important;
+}
+
 footer a {
   text-decoration: none;
 }

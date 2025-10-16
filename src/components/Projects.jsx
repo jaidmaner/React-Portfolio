@@ -47,7 +47,7 @@ const Projects = () => {
                           style={{
                             background: 'rgba(255, 255, 255, 0.2)',
                             backdropFilter: 'blur(5px)',
-                            color: 'white',
+                            color: 'black',
                             padding: '8px 12px',
                             borderRadius: '20px',
                             fontSize: '0.85rem'
@@ -62,7 +62,7 @@ const Projects = () => {
                       className="btn w-100"
                       style={{
                         background: 'rgba(255, 255, 255, 0.2)',
-                        color: 'white',
+                        color: 'black',
                         border: '1px solid rgba(255, 255, 255, 0.3)',
                         backdropFilter: 'blur(5px)',
                         transition: 'all 0.3s ease'
