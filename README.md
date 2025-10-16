@@ -31,7 +31,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jaid maner/React-portfolio.git
+   git clone https://github.com/jaidmaner/React-portfolio.git
    ```
 
 2. Navigate to the project directory:
